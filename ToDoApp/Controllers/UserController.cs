@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Authorization;
 namespace ToDoApp.Controllers
 {
     [Route("api/UserApi")]
-    [Authorize]
+   
 
     [ApiController]
     public class UserController : ControllerBase
